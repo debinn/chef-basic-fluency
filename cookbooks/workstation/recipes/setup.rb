@@ -6,6 +6,7 @@ package 'tree' do
 end
 package 'git'
 
-file '/etc/motd' do
-	content 'This file is the property of debin chef server'
+template '/etc/motd' do
+	source 'motd.erb'
+	action :create
 end
