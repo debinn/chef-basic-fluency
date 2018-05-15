@@ -1,0 +1,6 @@
+{ 
+    "id": "devops", 
+    "gid": 1009, 
+    "members": ["debinn","jerald"], 
+    "platform": "centos" 
+} 

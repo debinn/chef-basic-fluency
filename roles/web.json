@@ -7,7 +7,8 @@
    "override_attributes": {
    },
    "chef_type": "role",
-   "run_list": ["recipe[workstation]",
+   "run_list": ["recipe[manage_users]",
+		"recipe[workstation]",
                 "recipe[apache]"
    ]
 }
